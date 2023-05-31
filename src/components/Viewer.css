@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    gap:1vw;
+    margin:2vw;
+}
+
+.image{
+    width:50vw;
+    height:auto;
+    border-radius: 50px;
+}
+
+.description{
+    width:50vw;
+    height:auto;
+    color:#B4B3B3;
+    padding:3vw;
+}
+
+.thumbnail-image{
+    width:100px;
+    height:100px;
+}
+
+.first{
+    width:fit-content;
+}
+
+.slider{
+    width:100px;
+    height:100px;
+    display: inline-block;
+}
+
+.thumb {
+    background-size: contain;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+  }
+
+.play{
+   display: flex;
+   gap:10vw;
+}
+
+.slides{
+    display: flex;
+    align-items: start;
+    padding:0 5vw;
+}
+
+.playing{
+    width:10vw;
+    height: 5vw;
+    text-align: center;
+    background-color: white;
+    color:skyblue;
+    border: 1px solid skyblue;
+}
+
+.icon-only{
+    border: 1px solid black;
+    background-color: white;
+}
