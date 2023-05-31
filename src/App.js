@@ -73,7 +73,7 @@ function App() {
                 setActiveIndex(nextIndex); 
               }}
             >
-              <MdArrowRight />
+            <MdArrowRight />
             </button>
             </div>
             <div>
