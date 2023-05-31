@@ -20,6 +20,7 @@
 .thumbnail-image{
     width:100px;
     height:100px;
+    padding:0 0.2vw;
 }
 
 .first{
@@ -54,13 +55,14 @@
 .playing{
     width:10vw;
     height: 5vw;
-    text-align: center;
     background-color: white;
     color:skyblue;
-    border: 1px solid skyblue;
+    border:none;
+    font-size: 5rem;
 }
 
 .icon-only{
-    border: 1px solid black;
+    border:none;
     background-color: white;
+    font-size:3rem;
 }
