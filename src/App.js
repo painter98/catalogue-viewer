@@ -3,7 +3,7 @@ import Images from './components/Images.js';
 import Viewer from './components/Viewer.js';
 import {MdArrowLeft,MdArrowRight} from "react-icons/md";
 import Thumbs from './components/thumbnail.js';
-import { AiFillPlayCircle } from "react-icons/ai";
+import { AiFillPauseCircle, AiFillPlayCircle } from "react-icons/ai";
 import './components/Viewer.css';
 
 
@@ -77,7 +77,7 @@ function App() {
             </button>
             </div>
             <div>
-             <button className="playing" onClick={(event) => {startSlidShow(event)}}><AiFillPlayCircle/></button>
+             <button className="playing" onClick={(event) => {startSlidShow(event)}}>{slide?<AiFillPlayCircle/>:<AiFillPauseCircle/>}</button>
             </div>
           </div>
     </div>
