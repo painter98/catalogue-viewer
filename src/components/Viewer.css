@@ -74,4 +74,9 @@
         flex-direction: column;
         align-items:center;
     }
+    .thumbnail-image{
+        width:11vw;
+        height:13vw;
+        border-radius: 20px;
+    }
 }
