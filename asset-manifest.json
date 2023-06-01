@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/catalogue-viewer/static/css/main.042b2c33.css",
+    "main.js": "/catalogue-viewer/static/js/main.a10a9333.js",
+    "index.html": "/catalogue-viewer/index.html",
+    "main.042b2c33.css.map": "/catalogue-viewer/static/css/main.042b2c33.css.map",
+    "main.a10a9333.js.map": "/catalogue-viewer/static/js/main.a10a9333.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.042b2c33.css",
+    "static/js/main.a10a9333.js"
+  ]
+}
